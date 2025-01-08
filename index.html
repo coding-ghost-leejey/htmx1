@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMX EXAMPLE</title>
+    <script src="./js/htmx.min.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a hx-get="menu1.html" hx-target=".sub-contents">MENU1</a>
+            <a hx-get="menu2.html" hx-target=".sub-contents">MENU2</a>
+            <a hx-get="menu3.html" hx-target=".sub-contents">MENU3</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Index page</h2>
+        <div class="sub-contents"></div>
+    </main>
+
+    <footer>
+        &copy; copyrights
+    </footer>
+
+</body>
+
+</html>

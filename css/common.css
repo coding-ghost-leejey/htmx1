@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body {
+  background-color: #f3f3f3;
+}
+
+.menu1 {
+  background-color: #fff;
+}
+
+.menu2 {
+  background-color: lightcoral;
+}
+
+.menu3 {
+  background-color: dodgerblue;
+}
